@@ -9,13 +9,13 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItem {
     public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
 
     public static final Item MYTHRIL_NUGGET = registerItem("mythril_nugget",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.MYTHRIL)));
 
     public static final Item PP = registerItem("pp",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.MEME)));
 
 
 

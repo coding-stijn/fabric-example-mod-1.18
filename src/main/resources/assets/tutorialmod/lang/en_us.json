@@ -1,5 +1,11 @@
 {
   "item.tutorialmod.mythril_ingot": "Mythril Ingot",
   "item.tutorialmod.mythril_nugget": "Mythril Nugget",
-  "item.tutorialmod.pp": "PP lol"
+  "item.tutorialmod.pp": "PP lol",
+
+  "block.tutorialmod.mythril_block": "Mythril Block",
+  "block.tutorialmod.mythril_ore": "Mythril Ore",
+
+  "itemGroup.tutorialmod.mythril": "Myhtril Tutorial Tab",
+  "itemGroup.tutorialmod.memes": "Ur Moms Toys (joke)"
 }

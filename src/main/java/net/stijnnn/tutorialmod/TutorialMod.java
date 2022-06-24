@@ -1,6 +1,7 @@
 package net.stijnnn.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.stijnnn.tutorialmod.block.ModBlocks;
 import net.stijnnn.tutorialmod.item.ModItem;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,7 @@ public class TutorialMod  implements ModInitializer {
 	public void onInitialize() {
 
 		ModItem.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
