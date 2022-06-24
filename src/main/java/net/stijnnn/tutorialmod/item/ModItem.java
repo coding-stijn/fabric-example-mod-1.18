@@ -14,6 +14,9 @@ public class ModItem {
     public static final Item MYTHRIL_NUGGET = registerItem("mythril_nugget",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item PP = registerItem("pp",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
 
 
     private static Item registerItem(String name, Item item){
