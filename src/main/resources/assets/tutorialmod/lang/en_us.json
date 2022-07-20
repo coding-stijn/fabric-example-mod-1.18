@@ -4,6 +4,8 @@
   "item.tutorialmod.pp": "PP lol",
   "item.tutorialmod.dowsing_rod": "Dowsing Rod",
   "item.tutorialmod.lilac_flower_bulb": "Lilac Flower Bulb",
+  "item.tutorialmod.grape": "Grape",
+  "item.tutorialmod.pancake": "Pancake",
 
   "block.tutorialmod.mythril_block": "Mythril Block",
   "block.tutorialmod.mythril_ore": "Mythril Ore",
@@ -13,5 +15,9 @@
   "itemGroup.tutorialmod.memes": "Ur Moms Toys (joke)",
   "itemGroup.tutorialmod.custom": "Custom Items",
 
-  "item.tutorialmod.dowsing_rod.no_valuables": "No valuable blocks found."
+  "item.tutorialmod.dowsing_rod.no_valuables": "No valuable blocks found.",
+  "item.tutorialmod.dowsing_rod.tooltip.shift": "Press Right Click to find valuables",
+  "item.tutorialmod.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information.",
+
+  "tooltips.tutorialmod.speedy_block": "A Magical Block..."
 }
