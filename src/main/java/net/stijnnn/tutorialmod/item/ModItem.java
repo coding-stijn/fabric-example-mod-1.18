@@ -6,6 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.stijnnn.tutorialmod.TutorialMod;
 import net.minecraft.util.registry.Registry;
+import net.stijnnn.tutorialmod.item.custom.DowsingRodItem;
 
 public class ModItem {
     public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot",
@@ -16,6 +17,9 @@ public class ModItem {
 
     public static final Item PP = registerItem("pp",
             new Item(new FabricItemSettings().group(ModItemGroup.MEME)));
+
+    public static final Item DOWSING_ROD = registerItem("dowsing_rod",
+            new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.CUSTOM)));
 
 
 

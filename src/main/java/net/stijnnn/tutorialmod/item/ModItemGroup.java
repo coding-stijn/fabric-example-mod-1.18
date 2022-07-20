@@ -11,4 +11,6 @@ public class ModItemGroup {
             () -> new ItemStack(ModItem.MYTHRIL_INGOT));
     public static final ItemGroup MEME = FabricItemGroupBuilder.build(new Identifier(TutorialMod.MOD_ID, "memes"),
             () -> new ItemStack(ModItem.PP));
+    public static final ItemGroup CUSTOM = FabricItemGroupBuilder.build(new Identifier(TutorialMod.MOD_ID, "custom"),
+            () -> new ItemStack(ModItem.DOWSING_ROD));
 }
