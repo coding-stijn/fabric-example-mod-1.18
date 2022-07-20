@@ -10,6 +10,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.stijnnn.tutorialmod.TutorialMod;
+import net.stijnnn.tutorialmod.block.custom.SpeedyBlock;
 import net.stijnnn.tutorialmod.item.ModItemGroup;
 
 public class ModBlocks {
@@ -19,6 +20,9 @@ public class ModBlocks {
 
     public static final Block MYHTRIL_ORE = registerBlock("mythril_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.MYTHRIL);
+
+    public static final Block SPEEDY_BLOCK = registerBlock("speedy_block",
+            new SpeedyBlock(FabricBlockSettings.of(Material.STONE)), ModItemGroup.CUSTOM);
 
 
 

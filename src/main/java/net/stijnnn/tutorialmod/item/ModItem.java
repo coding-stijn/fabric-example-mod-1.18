@@ -19,7 +19,7 @@ public class ModItem {
             new Item(new FabricItemSettings().group(ModItemGroup.MEME)));
 
     public static final Item DOWSING_ROD = registerItem("dowsing_rod",
-            new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.CUSTOM)));
+            new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.CUSTOM).maxDamage(16)));
 
 
 
