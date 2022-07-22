@@ -2,8 +2,7 @@ package net.stijnnn.tutorialmod.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
+import net.minecraft.block.*;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -15,6 +14,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 import net.stijnnn.tutorialmod.TutorialMod;
+import net.stijnnn.tutorialmod.block.custom.ModPressurePlateBlock;
+import net.stijnnn.tutorialmod.block.custom.ModStoneButtonBlock;
 import net.stijnnn.tutorialmod.block.custom.SpeedyBlock;
 import net.stijnnn.tutorialmod.item.ModItemGroup;
 
@@ -23,14 +24,32 @@ import java.util.List;
 
 public class ModBlocks {
 
-    public static final Block MYHTRIL_BLOCK = registerBlock("mythril_block",
+    public static final Block MYTHRIL_BLOCK = registerBlock("mythril_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.MYTHRIL);
 
-    public static final Block MYHTRIL_ORE = registerBlock("mythril_ore",
+    public static final Block MYTHRIL_ORE = registerBlock("mythril_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.MYTHRIL);
 
     public static final Block SPEEDY_BLOCK = registerBlock("speedy_block",
             new SpeedyBlock(FabricBlockSettings.of(Material.STONE)), ModItemGroup.CUSTOM, "tooltips.tutorialmod.speedy_block");
+
+    public static final Block MYTHRIL_BUTTON = registerBlock("mythril_button",
+            new ModStoneButtonBlock(FabricBlockSettings.of(Material.STONE)
+                    .strength(2f).requiresTool().noCollision()), ModItemGroup.MYTHRIL);
+
+    public static final Block MYTHRIL_PRESSURE_PLATE = registerBlock("mythril_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.STONE)
+                    .strength(2f).requiresTool()), ModItemGroup.MYTHRIL);
+
+    public static final Block MYTHRIL_FENCE = registerBlock("mythril_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.MYTHRIL);
+
+    public static final Block MYTHRIL_FENCE_GATE = registerBlock("mythril_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.MYTHRIL);
+
+    public static final Block MYTHRIL_WALL = registerBlock("mythril_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.MYTHRIL);
+
 
 
 

@@ -11,6 +11,12 @@
   "block.tutorialmod.mythril_ore": "Mythril Ore",
   "block.tutorialmod.speedy_block": "Speedy Block",
 
+  "block.tutorialmod.mythril_button": "Mythril Button",
+  "block.tutorialmod.mythril_pressure_plate": "Mythril Pressure Plate",
+  "block.tutorialmod.mythril_fence": "Mythril Fence",
+  "block.tutorialmod.mythril_wall": "Mythril Wall",
+  "block.tutorialmod.mythril_fence_gate": "Mythril Fence Gate",
+
   "itemGroup.tutorialmod.mythril": "Myhtril Tutorial Tab",
   "itemGroup.tutorialmod.memes": "Ur Moms Toys (joke)",
   "itemGroup.tutorialmod.custom": "Custom Items",

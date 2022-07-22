@@ -2,6 +2,11 @@
   "replace": false,
   "values": [
     "tutorialmod:mythril_block",
-    "tutorialmod:mythril_ore"
+    "tutorialmod:mythril_ore",
+    "tutorialmod:mythril_fence",
+    "tutorialmod:mythril_fence_gate",
+    "tutorialmod:mythril_button",
+    "tutorialmod:mythril_pressure_plate",
+    "tutorialmod:mythril_wall"
   ]
 }
