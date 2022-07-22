@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.stijnnn.tutorialmod.TutorialMod"
+    ],
+    "client": [
+      "net.stijnnn.tutorialmod.TutorialClientMod"
     ]
   },
   "mixins": [

@@ -7,6 +7,12 @@
   "item.tutorialmod.grape": "Grape",
   "item.tutorialmod.pancake": "Pancake",
 
+  "item.tutorialmod.mythril_pickaxe": "Mythril Pickaxe",
+  "item.tutorialmod.mythril_axe": "Mythril Axe",
+  "item.tutorialmod.mythril_shovel": "Mythril Shovel",
+  "item.tutorialmod.mythril_hoe": "Mythril Hoe",
+  "item.tutorialmod.mythril_sword": "Mythril Sword",
+
   "block.tutorialmod.mythril_block": "Mythril Block",
   "block.tutorialmod.mythril_ore": "Mythril Ore",
   "block.tutorialmod.speedy_block": "Speedy Block",
@@ -17,7 +23,12 @@
   "block.tutorialmod.mythril_wall": "Mythril Wall",
   "block.tutorialmod.mythril_fence_gate": "Mythril Fence Gate",
 
-  "itemGroup.tutorialmod.mythril": "Myhtril Tutorial Tab",
+  "block.tutorialmod.kaupen_door": "Kaupen Door",
+  "block.tutorialmod.kaupen_trapdoor": "Kaupen Trapdoor",
+  "block.tutorialmod.mythril_slab": "Mythril Slab",
+  "block.tutorialmod.mythril_stairs": "Mythril Stairs",
+
+  "itemGroup.tutorialmod.mythril": "Mythril Tutorial Tab",
   "itemGroup.tutorialmod.memes": "Ur Moms Toys (joke)",
   "itemGroup.tutorialmod.custom": "Custom Items",
 

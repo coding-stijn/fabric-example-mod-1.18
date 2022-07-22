@@ -14,9 +14,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 import net.stijnnn.tutorialmod.TutorialMod;
-import net.stijnnn.tutorialmod.block.custom.ModPressurePlateBlock;
-import net.stijnnn.tutorialmod.block.custom.ModStoneButtonBlock;
-import net.stijnnn.tutorialmod.block.custom.SpeedyBlock;
+import net.stijnnn.tutorialmod.block.custom.*;
 import net.stijnnn.tutorialmod.item.ModItemGroup;
 
 import javax.annotation.Nullable;
@@ -49,6 +47,18 @@ public class ModBlocks {
 
     public static final Block MYTHRIL_WALL = registerBlock("mythril_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.MYTHRIL);
+
+    public static final Block MYTHRIL_SLAB = registerBlock("mythril_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.MYTHRIL);
+
+    public static final Block MYTHRIL_STAIRS = registerBlock("mythril_stairs",
+            new ModStairsBlock(ModBlocks.MYTHRIL_BLOCK.getDefaultState(),FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.MYTHRIL);
+
+    public static final Block KAUPEN_DOOR = registerBlock("kaupen_door",
+            new ModDoorBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.MYTHRIL);
+
+    public static final Block KAUPEN_TRAPDOOR = registerBlock("kaupen_trapdoor",
+            new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.MYTHRIL);
 
 
 
